@@ -167,7 +167,10 @@ codewriter.close()
 Os testes foram feitos com os arquivos oficiais disponibilizados em:
 `https://github.com/profsergiocosta/nand2tetris-notes/tree/main/projects/07`
 
-Validação feita via CPU Emulator do Nand2Tetris, carregando o script `.tst` de cada teste e conferindo a mensagem `Comparison ended successfully`:
+![Testes](tests/tests.png)
+
+Validação feita via CPU Emulator do Nand2Tetris, carregando o script `.tst` e conferindo a mensagem `Comparison ended successfully`:
+![Sucesso no CPUEmulator](tests/sucesso.png)
 
 - [x] `StackArithmetic/SimpleAdd`
 - [x] `MemoryAccess/BasicTest`
